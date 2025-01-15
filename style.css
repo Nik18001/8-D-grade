@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, skyblue, #feb47b); /* Градиентный фон */ 
+    height: 100vh;
+    display: block;
+    justify-content: center; /* Центрирование контента по горизонтали */
+    align-items: center; /* Центрирование контента по вертикали */
+    gap: 15px;
+    color: white; /* Белый цвет текста */
+  }
+  
+h1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+span{
+    color: black;
+    text-overflow: clip;
+    line-height: 5;
+}
+
+img{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 15px;
+    justify-content: center; /* Центрирование контента по горизонтали */
+    align-items: center; /* Центрирование контента по вертикали */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 3px solid black;
+    width: 225px;
+    height: 200px;
+}
+
+.my-class {
+    background: linear-gradient(120deg, skyblue, #feb47b);
+  font-family: Arial, sans-serif; /* Шрифт текста */
+  font-size: 18px; /* Размер шрифта */
+  color: #333; /* Цвет текста */
+   /* Отступы вокруг */
+  padding: 15px; /* Внутренние отступы */
+  background-color: #f9f9f9; /* Цвет фона */
+  border: 1px solid #ddd; /* Рамка */
+  border-radius: 8px; /* Скругленные углы */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+.my-class ul {
+    background: linear-gradient(120deg, skyblue, #feb47b);
+  list-style-type: disc; /* Тип маркеров списка */
+  margin-left: 20px; /* Отступ слева для списка */
+}
+
+.my-class ul li {
+    background: linear-gradient(120deg, skyblue, #feb47b);
+  margin-bottom: 10px; /* Расстояние между пунктами списка */
+}
+
+.my-class ul li:hover {
+    background: linear-gradient(120deg, skyblue, #feb47b);
+  color: #007BFF; /* Цвет текста при наведении */
+  cursor: pointer; /* Указатель при наведении */
+  transform: scale(1.02); /* Легкое увеличение при наведении */
+  transition: all 0.2s ease-in-out; /* Плавный переход */
+}
+
+  /* Дополнительно: стиль контейнера на фоне */
+  .container {
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.2); /* Полупрозрачный фон */
+    padding: 20px 40px; /* Внутренние отступы */
+    border-radius: 15px; /* Скругленные углы */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Тень */
+    text-align: center;
+
+  }
